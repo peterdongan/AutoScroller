@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>UWP.AutoScroller</id>
+    <version>0.1</version>
+    <title>AutoScroller</title>
+    <authors>Peter Dongan</authors>
+    <owners>Peter Dongan</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/peterdongan/AutoScroller</projectUrl>
+    <description>Auto-scrolls a UWP ScrollViewer when an element within it is dragged against its edge.
+</description>
+<summary>Auto-scrolls a UWP ScrollViewer when an element within it is dragged against its edge.</summary>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>ScrollViewer UWP autoscroll autoscrolling</tags>
+<repository type="git" url="https://github.com/peterdongan/AutoScroller.git" branch="master"/>
+  </metadata>
+</package>

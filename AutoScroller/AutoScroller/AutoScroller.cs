@@ -9,7 +9,7 @@ using Windows.UI.Xaml.Input;
 using Windows.Foundation;
 using Windows.Devices.Input;
 
-namespace AutoScroller
+namespace ScrollViewerAutomation
 {
     /// <summary>
     /// Enables autoscrolling when you drag something beyond the edge of a scrollviewer.
