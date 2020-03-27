@@ -1,6 +1,7 @@
 # AutoScroller
-UWP class that autoscrolls when you drag something beyond the edge of a targetted scrollviewer. 
+Auto-scrolls a UWP ScrollViewer when something is dragged against its edge. 
 
+## Usage
 Instantiate the AutoScroller with the target ScrollViewer. Set IsAutoScrollingEnabled to true to enable autoscrolling.
 
 Set IsAutoScrollingEnabled to false before removing references to the AutoScroller. This will remove any event handlers that it set on the ScrollViewer.
