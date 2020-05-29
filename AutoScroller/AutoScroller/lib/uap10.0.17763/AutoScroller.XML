@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoScroller</name>
+    </assembly>
+    <members>
+        <member name="T:AutoScrolling.AutoScroller">
+            <summary>
+            Enables autoscrolling when you drag something beyond the edge of a scrollviewer.
+            </summary>
+        </member>
+        <member name="P:AutoScrolling.AutoScroller.IsPointerCapturedOnPress">
+            <summary>
+            If set to true, the scrollviewer will capture the pointer when it is pressed.
+            This needs to be set to true if the pointer is not already being captured by the element being interacted with within the ScrollViewer.
+            It should be set to false if the pointer is being captured by elements in the ScrollViewer.
+            The default is false.
+            </summary>
+        </member>
+        <member name="P:AutoScrolling.AutoScroller.AreTouchEventsHandled">
+            <summary>
+            If set to false, autoscrolling will not be applied for touch interactions.
+            Only set this to true if you are also preventing the default touch/drag behaviour, which is to pan the scrollviewer.
+            </summary>
+        </member>
+        <member name="P:AutoScrolling.AutoScroller.ScrollPixelsPerTick">
+            <summary>
+            The number of pixels that will be scrolled per 100 milliseconds when scrolling is activated. Default is 5.
+            </summary>
+        </member>
+        <member name="P:AutoScrolling.AutoScroller.IsAutoScrollingEnabled">
+            <summary>
+            Will the target scrollviewer scroll automatically when an object is dragged to its boundary. 
+            Setting this to true applies event handlers to the target scrollviewer. Set it to false to remove the event handlers.
+            </summary>
+        </member>
+        <member name="M:AutoScrolling.AutoScroller.#ctor(Windows.UI.Xaml.Controls.ScrollViewer,System.Boolean,System.Double)">
+            <summary>
+            Enables autoscrolling when you drag something beyond the edge of a scrollviewer.
+            </summary>
+            <param name="targetScrollViewer">The ScrollViewer to use automatic scrolling.</param>
+            <param name="handleTouchEvents">If set to false, autoscrolling will not be applied for touch interactions.  Only set this to true if you are also preventing the default touch/drag behaviour, which is to pan the scrollviewer.</param>
+            <param name="scrollPixelsPerTick">Scroll rate, specified in the number of pixels per tenth of a second. Default is 20.</param>
+        </member>
+    </members>
+</doc>

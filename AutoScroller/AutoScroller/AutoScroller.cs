@@ -73,6 +73,7 @@ namespace AutoScrolling
                     {
                         RemoveAllSubscriptions();
                     }
+                    _isAutoScrollOn = value;
                 }
             }
         }

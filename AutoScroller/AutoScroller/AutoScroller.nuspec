@@ -2,19 +2,26 @@
 <package >
   <metadata>
     <id>UWP.AutoScroller</id>
-    <version>0.2</version>
+    <version>0.2.1</version>
     <title>AutoScroller</title>
     <authors>Peter Dongan</authors>
     <owners>Peter Dongan</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/peterdongan/AutoScroller</projectUrl>
+    <projectUrl>https://peterdongan.github.io/AutoScroller/</projectUrl>
     <description>Auto-scrolls a UWP ScrollViewer when an element within it is dragged against its edge.
 </description>
 <summary>Auto-scrolls a UWP ScrollViewer when an element within it is dragged against its edge.</summary>
-    <releaseNotes>First release</releaseNotes>
+    <releaseNotes>Fixed nuspec errors. Documentation added.</releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags>ScrollViewer UWP autoscroll autoscrolling</tags>
 <repository type="git" url="https://github.com/peterdongan/AutoScroller.git" branch="master"/>
+    <dependencies>
+      <group targetFramework="uap10.0.17763" />
+    </dependencies>
   </metadata>
+  <files>
+    <file src="C:\Users\peter\source\repos\AutoScroller\AutoScroller\AutoScroller\bin\Release\AutoScroller.dll" target="lib\uap10.0.17763\AutoScroller.dll"/>
+    <file src="C:\Users\peter\source\repos\AutoScroller\AutoScroller\AutoScroller\bin\Release\AutoScroller.XML" target="lib\uap10.0.17763\AutoScroller.XML" />
+  </files>
 </package>
