@@ -71,6 +71,7 @@ namespace AutoScrolling
                     }
                     else
                     {
+                        StopScrolling();
                         RemoveAllSubscriptions();
                     }
                     _isAutoScrollOn = value;
